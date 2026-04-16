@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    size: 100vh;
+    background-color: gainsboro
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 15px 150px;
+}
+.navlinks{
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    padding: 0;
+    margin: 0;
+
+}
+.navlinks a{
+    color: white;
+    text-decoration:none ;
+}
+.navlinks a:hover{
+    text-decoration: underline;
+}
+.logo{
+    font-weight: 500;
+    font-size: 20px;
+}
+/* header */
+/* main  */
+/* section */
+.div1{
+    margin: 50px 90px 10px 90px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 8px;
+}
+.pcoding{
+    font-size: 10px;
+    margin-top: 30px;
+    color: gray;
+}
+.hwelcome{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.pthis{
+    margin-bottom: 20px;
+}
+/* section2 */
+.section2{
+    background-color: white;
+    margin: 20px 90px 10px 90px;
+    border-radius: 9px;
+    
+}
+
+.p1sec3{
+    font-size: 10px;
+    margin-top: 30px;
+    color: gray;
+}
+.div1box{
+    background-color: rgb(244, 244, 244);
+    padding: 30px;
+    border-radius: 9px;
+    flex: 1;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.cardco{
+    display: flex;
+    gap: 10px;
+    margin: 10px;
+}
+.p1sec3{
+   padding-left: 15px;
+   padding-top: 15px;
+   padding-bottom: 15px;
+}
+.h2sec3{
+    padding-left: 15px;
+}
+/* section3 */
+.section3{
+    background-color: white;
+    margin: 20px 90px 10px 90px;
+    border-radius: 9px;
+}
+.bonuswrite{
+   padding-left: 15px;
+   padding-top: 15px;
+   padding-bottom: 15px;
+   font-size: 10px;
+   color: gray;
+}
+
+.video{
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-bottom: 15px;
+}
+.vid{
+    border-radius: 4px;
+}
+iframe{
+    border-radius: 8px;
+}
+.embdedh2{
+
+}
+/* footersection */
+.logobutt{
+    margin-bottom: 30px;
+}
+.secmap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 15px 150px 100px;
+    margin-top: 50px;
+    
+}
+.footerul{
+    display: fle;
+    gap: 25px;
+    padding: 0;
+    margin: 0;
+    color: white;
+    list-style: none;
+    margin-top: 20px;
+}
+.footerul a{
+    color: white;
+    text-decoration: none;
+}
+.email{
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+.copy{
+    background-color: black;
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+    border-top: 1px solid gray;
+}
+.footerul a:hover{
+    text-decoration: underline;
+}

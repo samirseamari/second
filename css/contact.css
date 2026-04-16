@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    size: 100vh;
+    background-color: gainsboro
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 15px 150px;
+}
+.navlinks{
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    padding: 0;
+    margin: 0;
+
+}
+.navlinks a{
+    color: white;
+    text-decoration:none ;
+}
+.navlinks a:hover{
+    text-decoration: underline;
+}
+.logo{
+    font-weight: 500;
+    font-size: 20px;
+}
+/* header */
+/* main  */
+.message{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 60px;
+    border-radius: 9px;
+}
+.pmessage{
+    padding: 3px;
+}
+input{
+    margin: 5px;
+    /* padding: 8px 120px 8px 120px; */
+    border-radius: 4px;
+    padding: 8px;
+    padding-right: 250px;
+    border: 1px solid #ccc;
+    
+}
+textarea{
+    border-radius: 4px;
+    margin: 9px;
+    padding-bottom: 50px ;
+    padding-right: 270px;
+    padding-left: 4px;
+    padding-top: 8px;
+    border: #ccc 1px solid;
+}
+.sendbutt{
+    color: white;
+    background-color: black;
+    padding: 8px 194px 8px 194px;
+    border-radius: 8px;
+    border: 1px solid black;
+}
+.map{
+    padding-top: 40px;
+    padding-left: 60px;
+    margin-bottom: 30px;
+}
+.maps{
+    border-radius: 10px;
+}
+/* footersection */
+.logobutt{
+    margin-bottom: 30px;
+}
+.secmap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 15px 150px 100px;
+    
+}
+.footerul{
+    display: fle;
+    gap: 25px;
+    padding: 0;
+    margin: 0;
+    color: white;
+    list-style: none;
+    margin-top: 20px;
+}
+.footerul a{
+    color: white;
+    text-decoration: none;
+}
+.email{
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+.copy{
+    background-color: black;
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+    border-top: 1px solid gray;
+}
+.footerul a:hover{
+    text-decoration: underline;
+}
